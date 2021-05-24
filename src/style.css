@@ -1,1 +1,72 @@
 /* styles go here */
+div {
+  display: block ;
+  margin: 0 0 20px ;
+}
+
+#PersonalInformation {
+  display: block ;
+}
+
+#PersonalInformation1 {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#PersonalInformation2 {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#PersonalInformation3 {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#PersonalInformation4 {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#Registration {
+  display: block ;
+}
+
+#Registration1 {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#WhatColor {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#WhatColor1 {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#labelCars {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#RateWork {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#Comments {
+  display: block ;
+}
+
+#recommend {
+  display: block ;
+  margin: 10px 0 0 ;
+}
+
+#push {
+  display: block ;
+  margin: 10px 0 0 ;
+}
