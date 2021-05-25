@@ -15,10 +15,10 @@
      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
      method="post"
      onsubmit="onSubmit()">
-      <div class="Personal_info">
+      <div>
         <fieldset>
           <legend>Personal information</legend>
-          <label for="Surname" id="PersonalInformation">
+          <label for="Surname">
            Surname:
             <input
               type="text"
@@ -27,7 +27,7 @@
               id="Surname">
           </label>
 
-          <label for="Name" id="PersonalInformation1">
+          <label for="Name" class="PersonalInformation">
            Name:
             <input
              type="text"
@@ -36,7 +36,7 @@
              id="Name">
           </label>
 
-          <label for="number" id="PersonalInformation2">
+          <label for="number" class="PersonalInformation">
            How old are You?
             <input
              type="number"
@@ -47,7 +47,7 @@
              id="number">
           </label>
 
-          <label for="date" id="PersonalInformation3">
+          <label for="date" class="PersonalInformation">
            Full date of birth:
             <input
              type="date"
@@ -55,7 +55,7 @@
              id="date">
           </label>
 
-          <label for="terms" id="PersonalInformation4">
+          <label for="terms" class="PersonalInformation">
            I accept the term of the agreement
             <input
              type="checkbox"
@@ -65,11 +65,11 @@
         </fieldset>
       </div>
 
-      <div class="Registr">
+      <div>
         <fieldset>
           <legend>Registration</legend>
 
-          <label for="email" id="Registration">
+          <label for="email">
             E-mail:
             <input
              type="email"
@@ -78,7 +78,7 @@
              required id="email">
           </label>
 
-          <label for="password" id="Registration1">
+          <label for="password" class="Registration">
             Password:
             <input
               type="password"
@@ -90,11 +90,11 @@
         </fieldset>
       </div>
 
-      <div class="AnInFaABYou">
+      <div>
         <fieldset>
           <legend>An interesting fact about you!</legend>
 
-          <label for="cat" id="AnYou">
+          <label for="cat">
             Do you love cats?
             <input
               type="radio"
@@ -104,7 +104,7 @@
             Yes
           </label>
 
-          <label for="cat1" id="AnYou1">
+          <label for="cat1">
             <input
               type="radio"
               name="cats"
@@ -113,14 +113,14 @@
             No
           </label>
 
-          <label for="color" id="WhatColor">
+          <label for="color" class="AnInFaABYou">
             What is your favorite color?
             <input
               type="color"
               id="color">
           </label>
 
-          <label for="sleep" id="WhatColor1">
+          <label for="sleep" class="AnInFaABYou">
             What time do you go to bed?
             <input
               type="time"
@@ -128,7 +128,7 @@
               id="sleep">
           </label>
 
-          <label for="label" id="labelCars">
+          <label for="label" class="AnInFaABYou">
             What are your favorite brand of cars?
             <select
              name="labecar"
@@ -140,7 +140,7 @@
             </select>
           </label>
 
-          <label for="rat" id="RateWork">
+          <label for="rat" class="AnInFaABYou">
               How do you rate our work?
             <input
                 type="range"
@@ -150,17 +150,17 @@
         </fieldset>
       </div>
 
-      <div class="AddInfo">
+      <div>
         <fieldset>
           <legend>Additional info:</legend>
 
-          <label for="comm" id="Comments">
+          <label for="comm">
              Comments:
             <textarea name="Comments" id="comm">
             </textarea>
           </label>
 
-          <label for="rec" id="recommend">
+          <label for="rec" class="AddInfo">
             Would you recommend us?
             <select name="labecar" id="rec">
               <option value="Yes">Yes</option>
@@ -170,7 +170,7 @@
         </fieldset>
       </div>
 
-      <button id="push" type="submit">Submit</button>
+      <button class="push" type="submit">Submit</button>
 
     </form>
     <script type="text/javascript" src="./main.js">
