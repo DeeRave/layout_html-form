@@ -4,12 +4,7 @@ div {
   margin: 0 0 20px ;
 }
 
-.label_input {
-  display: block ;
-  margin: 10px 0 0 ;
-}
-
-.push {
+.label_input_push {
   display: block ;
   margin: 10px 0 0 ;
 }
